@@ -1,6 +1,6 @@
 import React from 'react'
 import toast from 'react-hot-toast';
-
+import { Element } from 'react-scroll';
 
 export default function ContactMe() {
   const [result, setResult] = React.useState("");
@@ -31,7 +31,7 @@ export default function ContactMe() {
 
   return (
     <div className='flex flex-col m-5 p-5 bg-white rounded-md'>
-      <h2 className='text-4xl  font-semibold'> Contact Me </h2>
+      <Element name='Contact'  className='text-4xl  font-semibold'> Contact Me </Element>
           <div className='w-[100px] h-[3px] bg-blue-200 mt-1'></div>
           <div className=' flex flex-col text-xl text-richblack-500 w-full mx-auto p-2'>
             <span>Thanks for visiting!</span>

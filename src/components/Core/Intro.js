@@ -2,8 +2,7 @@ import React from 'react'
 import myphoto from "../../assets/myphoto1.jpg"
 import { FaFacebookF , FaInstagram ,FaWhatsapp ,FaLinkedinIn ,FaGithub} from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import { NavItems } from './NavItems';
-import { DownLoadCV } from './DownLoadCV';
+
 
 
 export const Intro = () => {
@@ -17,9 +16,9 @@ export const Intro = () => {
                     <div className='  text-richblack-25 lg:flex items-start justify-center rounded-full  hidden'>
                         <Link to="https://github.com/ashishp05"  className='bg-richblack-800  m-2 p-2 rounded-full'> <FaGithub /></Link>
                         <Link className='bg-richblack-800  m-2 p-2 rounded-full'> <FaFacebookF /></Link>
-                        <Link className='bg-richblack-800  m-2 p-2 rounded-full'>  <FaInstagram/></Link>
-                        <Link className='bg-richblack-800  m-2 p-2 rounded-full'>  <FaWhatsapp /></Link>
-                        <Link className='bg-richblack-800  m-2 p-2 rounded-full'> <FaLinkedinIn /></Link>
+                        <Link to="https://www.instagram.com/patel_ashish_185/" className='bg-richblack-800  m-2 p-2 rounded-full'>  <FaInstagram/></Link>
+                        <Link to="//wa.me/7984816169" className='bg-richblack-800  m-2 p-2 rounded-full'>  <FaWhatsapp /></Link>
+                        <Link to="www.linkedin.com/in/aashish-haripara-857675253" target='_blank' className='bg-richblack-800  m-2 p-2 rounded-full'> <FaLinkedinIn /></Link>
                       </div>
           
             </div>

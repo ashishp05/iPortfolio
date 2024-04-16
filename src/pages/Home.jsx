@@ -8,16 +8,19 @@ import Pdf from "../assets/myresume.pdf"
 import { Link } from 'react-router-dom';
  import { IoIosGitNetwork } from "react-icons/io";
 import Contact from './Contact';
+import { Element } from 'react-scroll';
+import { Navbar } from '../components/Navbar';
 
 
 export const Home = () => {
   return (
     <div className='w-fit  max-w-screen lg:overflow-x-hidden overflow-auto lg:h-screen bg-richblack-5 '>
        {/* Section Home */}
+       <Navbar/>
        <div className='flex lg:flex-col flex-row  w-full items-center justify-center relative'>
           <div >
-             <img src={myphoto2} alt='myphoto2'
-              className=' ' />
+             <img src={myphoto2} alt='myphoto2'/>
+      
           </div>
           <div className='flex flex-col  lg:left-80 left-40 absolute mb-5'>
              <p className='text-5xl  text-richblack-900 font-inter font-bold relative '>Ashish Haripara</p>
@@ -51,18 +54,10 @@ export const Home = () => {
           </div>
        </div>
        {/* about */}
-       <div> <About/></div>       
-       {/* section Skills-JavaBasics , Dsa ,html-css , js , reactjs ,mongodb , taliwindcss , pythonbasics  */}
-        <div>
-          <Skills/>
-        </div>
-       {/* section resume */}
-      <div>
-        <Resume/>
-      </div>
-      <div>
-        <Contact/>
-      </div>
+       <div name='About'>  <About/> </div>       
+      <div name='Skills'>     <Skills/> </div>
+      <div name='Resume'> <Resume/>  </div>
+      <div name='Contact'> <Contact/> </div>
     </div>
   )
 }

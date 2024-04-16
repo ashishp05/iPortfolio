@@ -1,14 +1,15 @@
 import React from 'react'
 import { personalinfo, personalinfo2 } from '../data/personalinfo'
 import { FaChevronRight } from "react-icons/fa";
+import { Element } from 'react-scroll';
 
 
 export const About = () => {
   return (
-    <div>
+    <div  >
       {/* section About */}
       <div className='flex flex-col w-full mx-auto p-5 bg-richblack-5 '>
-          <h2 className='text-4xl  font-semibold'> About </h2>
+          <Element name="About" className='text-4xl  font-semibold'> About </Element>
           <div className='w-[100px] h-[3px] bg-blue-200 mt-1'></div>
           <div className='text-2xl text-richblack-500 w-full mx-auto p-2'>
           Hello, my name is Ashish Haripara, and I am a 3<sup>rd</sup> year student at

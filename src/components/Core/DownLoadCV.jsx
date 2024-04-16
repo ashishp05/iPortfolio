@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
- import { IoMdDownload ,IoIosGitNetwork } from "react-icons/io";
+ import { IoMdDownload  } from "react-icons/io";
 import Pdf from '../../assets/myresume.pdf';
 export const DownLoadCV = () => {
    

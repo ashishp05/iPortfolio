@@ -36,6 +36,8 @@ export const NavItems = () => {
       <Link activeClass="active" to="Contact"    spy={true}  smooth={true} offset={50}  duration={500}  >ContactMe</Link> 
       </li>
     </ul>
+
+    
   </div> 
   )
 }

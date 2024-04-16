@@ -1,6 +1,5 @@
 import React from 'react'
 import { Intro } from './Core/Intro'
-import { Routes } from 'react-router-dom'
 import { NavItems } from './Core/NavItems'
 import { DownLoadCV } from './Core/DownLoadCV'
 export const Navbar = () => {

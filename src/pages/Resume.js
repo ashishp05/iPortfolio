@@ -1,12 +1,13 @@
 import React from 'react'
 import { courses, education, projects } from '../data/personalinfo'
 import { Link } from 'react-router-dom'
+import { Element } from 'react-scroll'
 
 export const Resume = () => {
   return (
     <div>
      <div className='flex flex-col p-5 w-full mx-auto  '>
-       <h2 className='text-4xl  font-semibold  '> Resume </h2>
+       <div  className='text-4xl  font-semibold  '> Resume </div>
           <div className='w-[100px] h-[3px] bg-blue-200 mt-1'></div>
           <div className='text-2xl text-richblack-500 w-full mx-auto p-2 '>
           I am a skilled programmer with 
@@ -14,9 +15,9 @@ export const Resume = () => {
           looking for a fresher role. 
           </div>
          <div className='border-l bg-richblack-5 relative '>
-         <div className='w-5 h-5 bg-richblack-100 -left-[10px] top-[22px] absolute  rounded-full '></div>
+         <Element name='Resume' className='w-5 h-5 bg-richblack-100 -left-[10px] top-[22px] absolute  rounded-full '></Element>
          <div className=' flex flex-col gap-y-7 p-3 '>
-          <p className='text-3xl font-medium ml-2'>Education</p>
+          <p  className='text-3xl font-medium ml-2'>Education</p>
           <div className=' flex lg:flex-row flex-col gap-y-5 lg:ml-0 ml-5 gap-x-5   '>
             {
               education.map((ele , index) =>
