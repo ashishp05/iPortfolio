@@ -16,7 +16,7 @@ export const Home = () => {
   return (
     <div className='w-fit  max-w-screen lg:overflow-x-hidden overflow-auto lg:h-screen bg-richblack-5 '>
        {/* Section Home */}
-       <Navbar/>
+       {/* <Navbar/> */}
        <div className='flex lg:flex-col flex-row  w-full items-center justify-center relative'>
           <div >
              <img src={myphoto2} alt='myphoto2'/>
