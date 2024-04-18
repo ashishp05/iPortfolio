@@ -18,7 +18,7 @@ export const Intro = () => {
                         <Link className='bg-richblack-800  m-2 p-2 rounded-full'> <FaFacebookF /></Link>
                         <Link to="https://www.instagram.com/patel_ashish_185/" className='bg-richblack-800  m-2 p-2 rounded-full'>  <FaInstagram/></Link>
                         <Link to="//wa.me/7984816169" className='bg-richblack-800  m-2 p-2 rounded-full'>  <FaWhatsapp /></Link>
-                        <Link to="www.linkedin.com/in/aashish-haripara-857675253" target='_blank' className='bg-richblack-800  m-2 p-2 rounded-full'> <FaLinkedinIn /></Link>
+                        <Link to="https://www.linkedin.com/in/aashish-haripara-857675253" target='_blank' className='bg-richblack-800  m-2 p-2 rounded-full'> <FaLinkedinIn /></Link>
                       </div>
           
             </div>
