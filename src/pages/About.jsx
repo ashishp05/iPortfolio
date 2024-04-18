@@ -19,10 +19,8 @@ export const About = () => {
            
              <div className='flex flex-col m-5'>
                <h3 className='text-2xl font-medium  text-blue-300'>Software Enginner & Web Developer</h3>
-               <p className='text-[16px] text-richblack-600 font-thin'>
-              
-               </p>
-              <div className='flex lg:flex-row flex-col lg:items-center items-start ml-12 lg:ml-0 justify-center lg:gap-x-52 py-3'>
+               
+              <div className='flex w-full mx-auto lg:flex-row flex-col lg:items-center items-start  lg:ml-0 justify-center lg:gap-x-52 py-1'>
               <div> 
                   {
                     personalinfo.map((info , index) =>
@@ -32,7 +30,7 @@ export const About = () => {
                         <div className='text-blue-200'> 
                         <FaChevronRight /></div>
                         
-                        <p className='text-[20px] text-richblack-900 font-semibold'> {info.title} :</p><p className='text-richblack-700 text-[18px]'> {info.value} </p>
+                        <p className='lg:text-[20px] text-[18px] text-richblack-900 font-semibold'> {info.title} :</p><p className='text-richblack-700 lg:text-[18px] text-[16px]'> {info.value} </p>
                         </div>
                       )
                     })
@@ -50,7 +48,7 @@ export const About = () => {
                         <div className='text-blue-200'> 
                         <FaChevronRight /></div>
                         
-                        <p className='text-[20px] text-richblack-900 font-semibold'> {info.title} :</p><p className='text-richblack-700 text-[18px]'> {info.value} </p>
+                        <p className='lg:text-[20px] text-[18px] text-richblack-900 font-semibold'> {info.title} :</p><p className='text-richblack-700 Llg:text-[18px] text-[16px]'> {info.value} </p>
                         </div>
                       )
                     })

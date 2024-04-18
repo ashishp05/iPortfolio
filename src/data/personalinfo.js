@@ -24,7 +24,7 @@ export const personalinfo = [
     },
     {
       title: "Email",
-     value: 'hariparaashish6686@gmail.com.',
+     value: 'hariparaashish6686@gmail.com',
     },
     {
       title: "City",

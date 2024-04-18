@@ -10,24 +10,25 @@ import { Link } from 'react-router-dom';
 import Contact from './Contact';
 import { Element } from 'react-scroll';
 import { Navbar } from '../components/Navbar';
+import { Footer } from '../components/Footer';
 
 
 export const Home = () => {
   return (
-    <div className='w-fit  max-w-screen lg:overflow-x-hidden overflow-auto lg:h-screen bg-richblack-5 '>
+    <div className='w-fit  max-w-screen overflow-x-hidden  lg:h-screen bg-richblack-5 '>
        {/* Section Home */}
        {/* <Navbar/> */}
-       <div className='flex lg:flex-col flex-row  w-full items-center justify-center relative'>
+       <div className='flex lg:flex-col flex-row  w-fit items-center justify-center relative'>
           <div >
              <img src={myphoto2} alt='myphoto2'/>
       
           </div>
-          <div className='flex flex-col  lg:left-80 left-40 absolute mb-5'>
-             <p className='text-5xl  text-richblack-900 font-inter font-bold relative '>Ashish Haripara</p>
+          <div className='flex flex-col  lg:left-80 left-24 absolute mb-5'>
+             <p className='lg:text-5xl text-3xl  text-richblack-900 font-inter font-bold relative '>Ashish Haripara</p>
              <div>
               <span className='text-2xl  font-semibold text-white'> I Am </span>
                     <TypeAnimation
-                      style={{ text:'white',fontSize: '2.5em' }}
+                      style={{ text:'white',fontSize: '2em' }}
                       preRenderFirstString={true}
                       sequence={[
                         500,
@@ -58,6 +59,7 @@ export const Home = () => {
       <div name='Skills'>     <Skills/> </div>
       <div name='Resume'> <Resume/>  </div>
       <div name='Contact'> <Contact/> </div>
+      <div><Footer/> </div>
     </div>
   )
 }
